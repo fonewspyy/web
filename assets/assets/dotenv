@@ -1,0 +1,72 @@
+# ////MAIN///
+URL_ENDPOINT = "https://venussentinel.bgs.co.th/village_api/RestAPI"
+# URL_ENDPOINT = "https://venussentinel.bgs.co.th/village_sync/RestAPI"
+# URL_ENDPOINT = "https://software.developer.bmscloud.in.th/village_api/RestAPI"
+WS_ENDPOINT = "wss://venussentinel.bgs.co.th/apibgs7151/ws/chat"
+O_openGate = "https://venussentinel.bgs.co.th/apibgs7151/open_gate"
+R_redis = "https://venussentinel.bgs.co.th/apibgs7151/load_redis"
+
+# /// RABBITMQ ///
+RABBIT_URL = "wss://venussentinel.bgs.co.th/ws/"
+RABBIT_USER = "guest"
+RABBIT_PASS = "guest"
+
+# /// MAIN ///
+# ///LOCAL///
+P_print = "https://venussentinel.bgs.co.th/printer/office/PrintReport?Action=Print"
+WS_ENDPOINT_LOCAL = "ws://192.168.20.185:7151/ws/chat"
+# URL_ENDPOINT_LOCAL = "http://192.168.20.185:7160/RestAPI"
+# URL_ENDPOINT_LOCAL = "https://venussentinel.bgs.co.th/village_api/RestAPI"
+
+URL_ENDPOINT_LOCAL = "https://venussentinel.bgs.co.th/village_sync/RestAPI"
+
+# /////////////////
+URL_ENDPOINT_BACKUP = "venussentinel.bgs.co.th/apibgs7151/RestAPI"
+# //// MAIN AUTH KEY ////
+
+AUTH_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCR1NWaWxsYWdlNC4wIiwic3ViIjoiQkdTVmlsbGFnZTQuMCIsInVzZXJuYW1lIjoiYWRtaW4iLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJ1c2VyX2luZm8iOnsidXNlcm5hbWUiOiJhZG1pbiIsIm5hbWVfcHJlZml4X25hbWUiOiJcdTBlMTlcdTBlMzJcdTBlMjIiLCJmaXJzdF9uYW1lIjoiYWRtaW4iLCJsYXN0X25hbWUiOiJiZ3MifSwicm9sZXMiOlsiQURNSU4iXX19LCJzY29wZSI6IiIsImV4cCI6MTczNDc5Nzc0M30.35hyuAR7RgfRFC0lEp3WOWsRGVWVwtNpAgUy2xh88oI"
+CONTENT_TYPE = "application/json"
+
+# ////////////////
+
+
+# /////////
+
+# //BkWS_ENDPOINT='ws://192.168.20.206:7151/ws/chat'
+# //get_redis = redis.Redis(host='192.168.1.63', port=6379, db=0)
+
+# //key = license_plate:list
+
+# //https://venussentinel.bgs.co.th/village_api/RestAPI
+# //https://software.developer.bmscloud.in.th/village_api/RestAPI
+
+
+# URL_ENDPsdOINT='https://venussentinel.bgs.co.th/village_api/RestAPI'
+# WS_ENDddPOINT='https://venussentinel.bgs.co.th/api7151/ws/chat'
+# P_prinasd='http://192.168.1.47:19000/printer/PrintReport?Action=Print'
+# O_opasdenGate='https://venussentinel.bgs.co.th/api7151/open_gate'
+# R_redasdis='https://venussentinel.bgs.co.th/api7151/load_redis'
+# URL_EasdNDPOINT_LOCAL='https://venussentinel.bgs.co.th/api7160/RestAPI'
+
+################### fone ####################
+DOMAIN_NAME="venussentinel.bgs.co.th"
+
+WS_IP="ws://192.168.20.185:7151/ws/chat"
+
+PRINTER_IP="https://venussentinel.bgs.co.th/printer/office/PrintReport?Action=Print"
+
+OPEN_GATE_IP="https://venusbgs.bmscloud.in.th/villageapi/open_gate"
+
+RABBIT_IP="http://192.168.20.185:7151/send_rabbit_message"
+
+AUTHORIZATION_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCR1NWaWxsYWdlNC4wIiwic3ViIjoiQkdTVmlsbGFnZTQuMCIsInVzZXJuYW1lIjoiYWRtaW4iLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJ1c2VyX2luZm8iOnsidXNlcm5hbWUiOiJhZG1pbiIsIm5hbWVfcHJlZml4X25hbWUiOiJcdTBlMTlcdTBlMzJcdTBlMjIiLCJmaXJzdF9uYW1lIjoiYWRtaW4iLCJsYXN0X25hbWUiOiJiZ3MifSwicm9sZXMiOlsiQURNSU4iXX19LCJzY29wZSI6IiIsImV4cCI6MTczNDc5Nzc0M30.35hyuAR7RgfRFC0lEp3WOWsRGVWVwtNpAgUy2xh88oI"
+
+VILLAGE_PROJECT_ID="4"
+
+BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJCR1NWaWxsYWdlNC4wIiwic3ViIjoiQkdTVmlsbGFnZTQuMCIsInVzZXJuYW1lIjoiYWRtaW4iLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJ1c2VyX2luZm8iOnsidXNlcm5hbWUiOiJhZG1pbiIsIm5hbWVfcHJlZml4X25hbWUiOiJcdTBlMTlcdTBlMzJcdTBlMjIiLCJmaXJzdF9uYW1lIjoiYWRtaW4iLCJsYXN0X25hbWUiOiJiZ3MifSwicm9sZXMiOlsiQURNSU4iXX19LCJzY29wZSI6IiIsImV4cCI6MTczNDc5Nzc0M30.35hyuAR7RgfRFC0lEp3WOWsRGVWVwtNpAgUy2xh88oI"
+
+DB_VILLAGE="https://venussentinel.bgs.co.th/village_api/RestAPI/villageproject_detail?villageproject_id=4"
+
+BACKEND_BASE_URL="https://venusocr.bmscloud.in.th"
+WS_ID_CARD_DETECT_URL="wss://venusocr.bmscloud.in.th/ws/idcard/detect"
+WS_ID_CARD_FULL_OCR_URL="wss://venusocr.bmscloud.in.th/ws/idcard/full_ocr_flip"
